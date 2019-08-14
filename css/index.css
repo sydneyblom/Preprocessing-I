@@ -134,3 +134,85 @@ html,
 body {
   height: 100%;
 }
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightcyan;
+}
+header h1 {
+  padding: 8% 3% 8% 8%;
+  font-size: 1.9rem;
+  margin-right: 5%;
+}
+header nav {
+  padding: 12% 4% 0 0;
+}
+header nav a {
+  margin-left: 120px;
+  font-size: 1.3rem;
+}
+.aboutme {
+  display: flex;
+}
+.aboutme .spacer {
+  width: 32%;
+  background-color: azure;
+}
+.aboutme .aboutmetext {
+  padding: 7% 10% 7% 6%;
+  background-color: steelblue;
+  width: 68%;
+}
+.aboutme .aboutmetext h1 {
+  font-size: 2rem;
+  padding-bottom: 4%;
+}
+.aboutme .aboutmetext p {
+  line-height: 150%;
+}
+.skills {
+  display: flex;
+  background-color: lightcyan;
+}
+.skills .sklist {
+  width: 68%;
+  display: flex;
+}
+.skills .sklist h1 {
+  margin-right: 30%;
+  margin-left: 4%;
+  padding: 15% 5% 10% 5%;
+  font-size: 1.9rem;
+}
+.skills .sklist li {
+  margin: 12% 1%;
+  padding: 10% 5% 10% 5%;
+}
+.skills .spacer {
+  padding: 7% 10% 7% 6%;
+  width: 32%;
+  background-color: azure;
+}
+.work {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: steelblue;
+}
+.work h1 {
+  padding: 4% 9% 3% 0;
+  font-size: 1.9rem;
+}
+.work .worka {
+  width: 25%;
+  padding: 2%;
+}
+.work .worka h3 {
+  font-size: 1.7rem;
+}
+.work .worka h4 {
+  font-size: 1.5rem;
+}
+.work .worka h5 {
+  font-size: 1.3rem;
+}
