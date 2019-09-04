@@ -1,1 +1,288 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+.standard-size {
+  font-size: 1.3rem;
+}
+.header-size {
+  font-size: 1.9rem;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightcyan;
+}
+header h1 {
+  color: steelblue;
+  padding: 10% 3% 10% 8%;
+  font-size: 1.9rem;
+  margin-right: 5%;
+  font-family: 'Fjalla One', sans-serif;
+}
+header nav {
+  padding: 16% 4% 0 0;
+}
+header nav a {
+  color: steelblue;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 120px;
+  font-size: 1.3rem;
+}
+.aboutme {
+  display: flex;
+  color: lightcyan;
+}
+.aboutme .spacer {
+  width: 32%;
+  background-color: azure;
+}
+.aboutme .aboutmetext {
+  font-size: 1.3rem;
+  padding: 7% 10% 7% 6%;
+  background-color: steelblue;
+  width: 68%;
+}
+.aboutme .aboutmetext h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.9rem;
+  padding-bottom: 4%;
+}
+.aboutme .aboutmetext p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+}
+.skills {
+  color: steelblue;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightcyan;
+}
+@media (max-width: 500px) {
+  .skills {
+    flex-direction: column;
+  }
+}
+.skills h1 {
+  font-family: 'Fjalla One', sans-serif;
+  padding: 10% 10% 10% 6%;
+  font-size: 1.9rem;
+}
+@media (max-width: 500px) {
+  .skills h1 {
+    padding-bottom: 1%;
+  }
+}
+.skills .sklist {
+  font-family: 'Montserrat', sans-serif;
+  width: 68%;
+  padding: 7% 10% 7% 6%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+}
+@media (max-width: 500px) {
+  .skills .sklist {
+    flex-direction: column;
+  }
+}
+.skills .sklist .skilltext {
+  display: flex;
+  padding-right: 10%;
+}
+.skills .spacer {
+  padding: 7% 10% 7% 6%;
+  width: 32%;
+  background-color: azure;
+}
+@media (max-width: 500px) {
+  .skills .spacer {
+    padding: 0;
+    width: 0;
+  }
+}
+.work {
+  color: lightcyan;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: steelblue;
+}
+@media (max-width: 500px) {
+  .work {
+    flex-direction: column;
+  }
+}
+.work h1 {
+  font-family: 'Fjalla One', sans-serif;
+  padding: 4% 9% 3% 0;
+  font-size: 1.9rem;
+}
+.work .worka {
+  width: 25%;
+  padding: 2%;
+}
+.work .worka h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.7rem;
+}
+.work .worka h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+}
+.work .worka h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+footer {
+  color: steelblue;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightcyan;
+}
+footer .spacer {
+  width: 34%;
+  background-color: azure;
+}
+footer h1 {
+  font-size: 1.9rem;
+}
+footer .contact {
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5%;
+}
